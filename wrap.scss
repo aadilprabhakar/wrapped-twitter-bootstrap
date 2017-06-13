@@ -2,5 +2,18 @@
  * Import the bootstrap scss using @import 
  */
 .wrapped-twitter-bootstrap{
+  /*// default styles for .wrapped-twitter-bootstra * //*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    color: #292b2c;
+    font-size:14px;
+  
+	.modal { position: absolute !important; }  
+  
   @import './bootstrap-4-dev/scss/bootstrap.scss';
 }
