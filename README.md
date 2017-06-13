@@ -14,11 +14,10 @@ Let's say you want to apply bootstrap only inside the div.bootstrap-inside conta
 Having a wrapped boostrap stylesheet will limit the bootstrap styles inside the container.
 
 Requirements
-- SCSS/SASS compiler
+- SCSS compiler
 - CSSNano (if you want to minify the CSS)
 
 The How
 - Create an .scss file and import your bootstrap scss file by wrapping the import into the class you want to wrap bootstrap into
 - Compile SCSS 
 - Minify using CSSNano if you want to minify
-
